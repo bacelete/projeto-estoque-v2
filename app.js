@@ -10,7 +10,7 @@ import bodyParser from 'body-parser';
 const __filename = fileURLToPath(import.meta.url);  
 const __dirname = dirname(__filename);  
 
-const port = 3000;  
+const port = 3001;  
 const app = express();  
 
 app.use(session({ secret: 'asdasd3asDa2edasdasdas', resave: false, saveUninitialized: true })); 

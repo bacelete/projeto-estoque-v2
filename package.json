@@ -14,15 +14,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bacelete/projeto-estoque-sms.git"
+    "url": "git+https://github.com/bacelete/projeto-estoque-v2.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/bacelete/projeto-estoque-sms/issues"
+    "url": "https://github.com/bacelete/projeto-estoque-v2/issues"
   },
-  "homepage": "https://github.com/bacelete/projeto-estoque-sms#readme",
+  "homepage": "https://github.com/bacelete/projeto-estoque-v2#readme",
   "dependencies": {
     "body-parser": "^1.20.3",
     "ejs": "^3.1.10",
