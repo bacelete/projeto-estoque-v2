@@ -1,0 +1,30 @@
+<!DOCTYPE html>  
+<html lang="pt-BR">  
+<head>  
+    <meta charset="UTF-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <link rel="stylesheet" href="public/css/styles_index.css">  
+    <title>Tela de Login</title>  
+</head>  
+<body>  
+    
+         <div class="login-box">  
+        <img src="/public/image/logo.png" alt="Logo" class="logo">  
+        <!-- Tela de Login -->  
+        <form action="/login" method="post">  
+            <label for="email">Usuário:</label>  
+            <input type="text" id="email" name="email" placeholder="Digite seu e-mail:">  
+
+            <label for="senha">Senha:</label>  
+            <input type="password" id="senha" name="senha" placeholder="Digite sua senha:">  
+
+            <button class="login-button" type="submit">Entrar</button>  
+            <% if (locals.error) { %>  
+                <p style="color: red;"><%= error %></p>  
+            <% } %>  
+        </form>  
+        </div>  
+    
+</body>  
+<Script></Script><!-- o src=main.js, vai ligar essa pag aos scripts JS registrados no arquivo js main.js -->  
+</html>

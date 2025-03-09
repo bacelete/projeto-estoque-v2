@@ -1,0 +1,58 @@
+body {  
+    background-color: #f8f8f8;/*Define a cor de fundo do local*/  
+    display: flex; /*Usa flexbox para o layout do conteúdo da página*/  
+    justify-content: center; /* Centraliza horizontalmente o conteúdo dentro do body */  
+    align-items: center; /* Centraliza verticalmente o conteúdo dentro do body */  
+    height: 100vh; /* Define a altura do body como 100% da altura da janela de visualização */ 
+    margin: 0; /* Remove a margem padrão do body */  
+    font-family: Arial, sans-serif; /* Define a fonte padrão como Arial, com uma fonte sans-serif */  
+}  
+
+
+.container {  
+    display: flex; /*Usa flexbox para o layout do conteúdo da página*/ 
+    justify-content: center;/* Centraliza horizontalmente o conteúdo dentro do body */  
+    align-items: center; /* Centraliza verticalmente o conteúdo dentro do body */
+}  
+
+.login-box {  
+    background-color: white; /*Define a cor de fundo do local*/  
+    padding: 20px; /* Adiciona um espaçamento interno de 20px em todos os lados */ 
+    border-radius: 8px;/* Arredonda os cantos da caixa com um raio de 8px */  
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);  /* Adiciona uma sombra suave ao redor da caixa */  
+    text-align: center;/* Centraliza o texto dentro da caixa */  
+}  
+
+.logo {  
+    width: 100px; /* Define a largura da logo como 100 pixels */  
+    margin-bottom: 20px; /* Adiciona uma margem inferior de 20 pixels, separando a logo dos elementos seguintes */  
+}
+
+label {  
+    display: block; /* Faz com que cada label ocupe toda a largura disponível dentro do elemente ou bloco.*/
+    margin: 10px 0 5px; /* Adiciona uma margem inferior de 20 pixels, separando a logo dos elementos seguintes */  
+}  
+
+
+input {  
+    width: 100%;/* Define a largura dos inputs como 100% do seu contêiner pai */  
+    padding: 8px;/* Adiciona um espaçamento interno de 8 pixels */  
+    margin-bottom: 15px;/* Adiciona uma margem inferior de 15 pixels para espaçar dos elementos seguintes */  
+    border: 1px solid #ccc;/* Define a borda como sólida com a cor cinza clara */  
+    border-radius: 4px;/* Arredonda os cantos dos inputs com um raio de 4 pixels */  
+}  
+
+
+.login-button {  
+    background-color: green;/* Define a cor de fundo do botão como verde */  
+    color: white;/* Define a cor do texto do botão como branca */  
+    padding: 10px; /* Adiciona um espaçamento interno de 10 pixels */  
+    border: none;/* Remove a borda padrão do botão */  
+    border-radius: 5px; /* Arredonda os cantos do botão com um raio de 5 pixels */  
+    cursor: pointer; /* Muda o cursor para indicar que o botão é clicável */  
+    width: 100%; /* Define a largura do botão como 100% do seu contêiner pai */  
+}
+
+.login-button:hover {  
+    background-color: darkgreen; /*Define a cor de fundo do local*/  
+}

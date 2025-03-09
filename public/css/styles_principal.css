@@ -1,0 +1,59 @@
+* {  
+    margin: 0;  
+    padding: 0;  
+    box-sizing: border-box;  
+}  
+
+body {  
+    font-family: Arial, sans-serif;  
+    display: flex;  
+    height: 100vh;  /* Define a altura do body como 100% da altura da janela de visualização */  
+}  
+
+.sidebar {  
+    background-color: #4b88c9;  /* Cor de fundo azul */  
+    color: white;  
+    width: 250px;  /* Largura da barra lateral */  
+    padding: 20px;  
+    display: flex;  
+    flex-direction: column;  /* Para empilhar a logo e os botões verticalmente */  
+    height: 100%;  /* Altura do sidebar para preencher toda a altura da tela */  
+}  
+
+.logo {  
+    text-align: center;  /* Centraliza a logo */  
+    margin-bottom: 20px;  
+}  
+
+.logo-img {  
+    width: 100px;  /* Largura da logo */  
+    height: auto;  /* Mantém a proporção da altura */  
+}  
+
+.nav-menu {  
+    display: flex;  
+    flex-direction: column;  /* Coloca os elementos em coluna */  
+    flex-grow: 1;  /* Faz o menu ocupar todo o espaço disponível */  
+}  
+
+.nav-button {  
+    background-color: #0056b3;  /* Cor de fundo dos botões */  
+    color: white;  
+    border: none;  /* Remove a borda dos botões */  
+    padding: 15px;  /* Espaçamento interno dos botões */  
+    margin-bottom: 10px;  /* Espaçamento entre os botões */  
+    border-radius: 5px;  /* Bordas arredondadas */  
+    cursor: pointer;  /* Muda o cursor para indicar que é clicável */  
+    text-align: left;  /* Alinha o texto à esquerda */  
+    width: 100%;  /* Largura total do botão */  
+    transition: background-color 0.3s;  /* Animação suave na troca de cor */  
+}  
+
+.nav-button:hover {  
+    background-color: #004085;  /* Cor quando o mouse passa em cima do botão */  
+}  
+
+.content {  
+    flex: 1;  /* Ocupa o espaço restante disponível */  
+    padding: 20px;  /* Espaçamento interno do conteúdo */  
+}
